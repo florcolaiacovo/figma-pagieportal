@@ -47,7 +47,8 @@ class SlideMenu extends Component {
                 <h4 className={styles.titulo5}>Log Out</h4>
                 <div className={styles.card}>
                     
-                    <img src={Blue} alt="img"></img>
+                    <img src={Blue} 
+                        className={styles.img1} alt="img"></img>
                     <div className={styles.el1}>
                        
                     </div>

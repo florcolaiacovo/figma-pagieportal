@@ -16,7 +16,7 @@ class Filters extends Component {
                 <h4 className={styles.op5}>Last month</h4>
                 <div className={styles.sl1}></div>
                 <div className={styles.sl2}></div>
-                <img src={Card}></img>
+                <img src={Card} className={styles.img2}></img>
                 <h4 className={styles.subtitulo}></h4>
         
             </section>

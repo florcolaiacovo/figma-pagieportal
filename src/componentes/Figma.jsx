@@ -11,7 +11,7 @@ import Card4 from './Card4'
 export default class Figma extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.fondo}>
         <SlideMenu>
 
         </SlideMenu>

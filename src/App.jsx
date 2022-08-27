@@ -15,19 +15,21 @@ import Navbar from './componentes/Navbar'
 import AlwaysOpenExample from './componentes/ComponenteFuncion'
 import WithLabelExample from './componentes/ProgressBar'
 import Figma from './componentes/Figma'
+import Figma2 from './componentes/Figma/Figma2'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     
-    <div className="App">
+    <div className="App container">
      <BrowserRouter>
      {/*<Navbar/>*/}
     <Routes>
       <Route path="/" element={<h1>ruta de prueba</h1>}>
       </Route>
       <Route path='/figma' element={<Figma/>}/>
+      <Route path='/figma-pagie' element={<Figma2/>}/>
       <Route path="/rutanueva" element={<Componente/>}/>
       <Route path="/ej1" element={<EjProp1 saludo="prop"/>}/>
       <Route path="/ej2" element={<EjProp2 comp={"propiedad de componente"}/>}/>
