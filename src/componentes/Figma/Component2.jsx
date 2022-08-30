@@ -5,8 +5,9 @@ import Search from './Search'
 
 export default function Component2() {
   return (
-    <div className={`${styles.father} col-8 `}>
+    <div>
         <Search/>
+        <h3 className={styles.text}>Showing 233 results</h3>
     </div>
   )
 }

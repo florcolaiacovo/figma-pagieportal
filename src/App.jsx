@@ -22,7 +22,7 @@ function App() {
 
   return (
     
-    <div className="App container">
+    <div>
      <BrowserRouter>
      {/*<Navbar/>*/}
     <Routes>
@@ -50,6 +50,9 @@ function App() {
       {/*<AlwaysOpenExample/>*/}
       {/**PrgressBar.jsx */}
       {/*<WithLabelExample/>*/}
+      
+        
+    
     </div>
   )
 }

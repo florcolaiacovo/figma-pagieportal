@@ -6,7 +6,7 @@ import Card from '../../elements/Card.svg'
 
 export default function Component1() {
   return (
-    <div className={`${styles.father} col-2`}>
+    <div className={`${styles.father}`}>
       <div 
       
       className={styles.box1}>

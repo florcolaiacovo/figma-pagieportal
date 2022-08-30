@@ -1,7 +1,11 @@
 .father{
     display: flex;
     flex-direction: column;
+    position: relative;
     width: 100%;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    .text{
+        padding-left: 0px;
+    }
 }
